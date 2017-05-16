@@ -1,5 +1,6 @@
 package com.codeasylums.calculator2;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -37,7 +38,16 @@ public class MainActivity extends AppCompatActivity {
         b14 = (Button) findViewById(R.id.button14);
         b15 = (Button) findViewById(R.id.button15);
         b16 = (Button) findViewById(R.id.button16);
-
+        b1.setBackgroundColor(Color.BLUE);
+        b2.setBackgroundColor(Color.BLUE);
+        b3.setBackgroundColor(Color.BLUE);
+        b4.setBackgroundColor(Color.BLUE);
+        b5.setBackgroundColor(Color.BLUE);
+        b6.setBackgroundColor(Color.BLUE);
+        b7.setBackgroundColor(Color.BLUE);
+        b8.setBackgroundColor(Color.BLUE);
+        b9.setBackgroundColor(Color.BLUE);
+        .setBackgroundColor(Color.BLUE);
 
         b1.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
