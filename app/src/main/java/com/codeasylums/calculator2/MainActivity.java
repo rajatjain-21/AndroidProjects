@@ -154,7 +154,6 @@ public class MainActivity extends AppCompatActivity {
 
                 aa = a;
                 b = 1;
-                a = "";
                 edt.setText("");
             }
         });
@@ -166,7 +165,6 @@ public class MainActivity extends AppCompatActivity {
 
                 aa = a;
                 b = 2;
-                a = "";
                 edt.setText("");
 
             }
@@ -178,7 +176,6 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 aa = a;
                 b = 3;
-                a = "";
                 edt.setText("");
 
             }
@@ -190,7 +187,6 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 aa = a;
                 b = 4;
-                a = "";
                 edt.setText("");
 
             }
