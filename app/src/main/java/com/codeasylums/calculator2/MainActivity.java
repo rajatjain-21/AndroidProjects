@@ -1,18 +1,14 @@
 package com.codeasylums.calculator2;
 
-
-import android.app.Activity;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
-import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    public EditText display;
     TextView edt;
     Integer c, d, r, b;
     String a = "0", aa;
@@ -45,7 +41,6 @@ public class MainActivity extends AppCompatActivity {
 
         b1.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                // TODO Auto-generated method stub
 
                 a = edt.getText().toString();
                 a = a + "1";
@@ -57,7 +52,6 @@ public class MainActivity extends AppCompatActivity {
         b2.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View v) {
-                // TODO Auto-generated method stub
 
                 a = edt.getText().toString();
                 a = a + "2";
@@ -101,7 +95,6 @@ public class MainActivity extends AppCompatActivity {
         b6.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View v) {
-                // TODO Auto-generated method stub
 
                 a = edt.getText().toString();
                 a = a + "6";
@@ -124,7 +117,6 @@ public class MainActivity extends AppCompatActivity {
         b8.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View v) {
-                // TODO Auto-generated method stub
 
                 a = edt.getText().toString();
                 a = a + "8";
@@ -137,7 +129,6 @@ public class MainActivity extends AppCompatActivity {
         b9.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View v) {
-                // TODO Auto-generated method stub
 
                 a = edt.getText().toString();
                 a = a + "9";
@@ -149,7 +140,6 @@ public class MainActivity extends AppCompatActivity {
         b10.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View v) {
-                // TODO Auto-generated method stub
 
                 a = edt.getText().toString();
                 a = a + "0";
@@ -232,11 +222,7 @@ public class MainActivity extends AppCompatActivity {
                     d = Integer.parseInt(a);
                     r = c * d;
                 }
-                //c = 0;
-                //b = 0;
-                //d = 0;
-                //a = "";
-                //aa = "";
+
                 edt.setText(String.valueOf(r));
             }
         });
@@ -245,8 +231,6 @@ public class MainActivity extends AppCompatActivity {
         b16.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View v) {
-                // TODO Auto-generated method stub
-
                 edt.setText("");
             }
         });
